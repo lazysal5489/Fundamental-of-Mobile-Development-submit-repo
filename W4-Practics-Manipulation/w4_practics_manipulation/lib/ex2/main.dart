@@ -15,7 +15,7 @@ class Ex2 extends StatelessWidget {
           child: Container(
             decoration: BoxDecoration(
               color: Colors.blue,
-              borderRadius: BorderRadius.all(Radius.circular(20)),
+              borderRadius: BorderRadius.circular(20),
             ),
             child: Center(
               child: Text(
