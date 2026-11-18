@@ -1,0 +1,16 @@
+name: w7_practice
+description: "W7 practice: stateful widgets."
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/w4-s2/

@@ -3,10 +3,15 @@ description: "W7 test G3: SportCard stateless widget."
 publish_to: 'none'
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ^3.11.0
 
 dependencies:
   flutter:
+    sdk: flutter
+  material_ui: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
     sdk: flutter
 
 flutter:
